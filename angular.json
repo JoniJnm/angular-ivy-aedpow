@@ -17,12 +17,13 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
-            "tsConfig": "src/tsconfig.app.json",
+            "tsConfig": "tsconfig.json",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+              "node_modules/mdb-angular-ui-kit/assets/scss/mdb.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -85,7 +86,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "src/tsconfig.app.json",
+              "tsconfig.json",
               "src/tsconfig.spec.json"
             ],
             "exclude": [

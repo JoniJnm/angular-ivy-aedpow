@@ -14,6 +14,8 @@ export class AppComponent {
   constructor(private modalService: MdbModalService) {}
 
   openModal() {
-    this.modalService.open(ModalDialogComponent);
+    this.modalService.open(ModalDialogComponent, {
+      modalClass: 'modal-dialog-scrollable'
+    });
   }
 }
