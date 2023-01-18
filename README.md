@@ -1,3 +1,4 @@
-# angular-ivy-aedpow
+# mdbboostrap modal bug
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-aedpow)
+* Edit on: https://stackblitz.com/edit/mdboostrap-modal-bug
+* Issue: https://github.com/mdbootstrap/mdb-angular-ui-kit/issues/160
