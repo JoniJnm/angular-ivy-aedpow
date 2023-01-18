@@ -15,6 +15,7 @@ export class AppComponent {
 
   openModal() {
     this.modalService.open(ModalDialogComponent, {
+      ignoreBackdropClick: true,
       modalClass: 'modal-dialog-scrollable'
     });
   }
